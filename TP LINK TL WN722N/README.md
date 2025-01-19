@@ -1,13 +1,29 @@
-# Instructions for the User:
+# TP-Link WN722N Installation (Version 2/3/4)
 
-## 1 Run install-tp-link-wn722n-step1.sh.
+This guide provides instructions for installing the TP-Link WN722N USB Wi-Fi adapter on Linux.
 
-    sudo bash install-tp-link-wn722n-step1.sh
+## Instructions
 
-## 2 Follow the instructions to reboot by running reboot-system.sh.
+### Step 1: Install the Driver
 
-    sudo bash reboot-system.sh
+Run the following command to start the installation process:
 
-## 3 After rebooting, run install-tp-link-wn722n-final-step.sh to finish the installation.
+```bash
+sudo bash install-tp-link-wn722n-step1.sh
+```
 
-    sudo bash install-tp-link-wn722n-final-step.sh
+### Step 2: Reboot the System
+
+Follow the instructions provided by the script, and once done, reboot your system:
+
+```bash
+sudo bash reboot-system.sh
+```
+
+### Step 3: Finalize the Installation
+
+After rebooting, complete the installation by running the final step script:
+
+```bash
+sudo bash install-tp-link-wn722n-final-step.sh
+```
